@@ -9,6 +9,8 @@ import Table from 'react-bootstrap/Table'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Spinner from 'react-bootstrap/Spinner'
 
+import SearchIcon from '@material-ui/icons/Search';
+
 class TrivialList extends Component {
 
     constructor(props) {
@@ -53,7 +55,7 @@ class TrivialList extends Component {
                         <option>User</option>
                         <option>Category</option>
                     </select>
-                    <button className="btn btn-sm btn-default mx-1">Search</button>
+                    <button className="btn btn-sm btn-default mx-1"><SearchIcon />Search</button>
                 </div>
 
 
